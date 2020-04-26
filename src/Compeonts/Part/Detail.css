@@ -1,0 +1,79 @@
+a-scene
+{
+    height: 35rem;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.cookerIntro__frame
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cookerImage
+{
+    margin: 0 auto;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+}
+
+.detailFoodSimpleIntro__frame
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cookerFollow__frame
+{
+    display: flex;
+}
+
+.cookerFollow{
+    margin-left: 2rem;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .detailFoodSimpleIntro__frame
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    a-scene{
+        width: 10rem;
+        height: 17rem;
+    }
+
+    .cookerIntro__frame
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cookerFollow__frame
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cookerFollow
+    {
+        margin-left: 0rem;
+    }
+}
